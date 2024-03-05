@@ -1,7 +1,8 @@
 package basics
 
 class OddNumbers {
-    //15 ve 17 sayilari haricinde 0-20 arasindaki tek sayilari yazdirma
+
+    // 15 ve 17 sayilari haricinde 0-20 arasindaki tek sayilari yazdirma
     fun getOddNumbersWithFor() {
         for (a in 0..20)
             if ((a % 2 == 1) && (a != 15 && a != 17))
@@ -17,7 +18,7 @@ class OddNumbers {
             }
     }
 
-    //1-50 arasindaki tek sayilarin kucukten buyuge 20 ile 30 arasindaki sayilari for kullanarak buyukten kucuge yazdirma
+    // 1-50 arasindaki tek sayilarin kucukten buyuge 20 ile 30 arasindaki sayilari for kullanarak buyukten kucuge yazdirma
     fun getOddNumbersSample3() {
         for (a in 1..50) {
             if (a % 2 == 1) {
@@ -30,7 +31,7 @@ class OddNumbers {
         }
     }
 
-    //1-50 arasindaki tek sayilarin kucukten buyuge 20 ile 30 arasindaki sayilari while kullanarak buyukten kucuge yazdirma
+    // 1-50 arasindaki tek sayilarin kucukten buyuge 20 ile 30 arasindaki sayilari while kullanarak buyukten kucuge yazdirma
     fun getOddNumbersSample4() {
         var a: Int = 1
         while (a in 1..50) {
@@ -45,7 +46,7 @@ class OddNumbers {
         }
     }
 
-    //1-50 arasindaki tek sayilarin kucukten buyuge 20 ile 30 arasindaki sayilari forEach kullanarak buyukten kucuge yazdirma
+    // 1-50 arasindaki tek sayilarin kucukten buyuge 20 ile 30 arasindaki sayilari forEach kullanarak buyukten kucuge yazdirma
     fun getOddNumbersSample5() {
         (((1..50) step 2)).forEach { i ->
             when (i) {
@@ -55,18 +56,15 @@ class OddNumbers {
         }
     }
 
-
     // 1-30 arasindaki tek sayilarin continue kullanarak yazdirma
-
-    fun getOddNumbersSample6(){
+    fun getOddNumbersSample6() {
         var i = 0;
         while (i++ < 30) {
-            if((i % 2) == 0){
+            if ((i % 2) == 0) {
                 continue
             }
             println(i)
         }
     }
-
 }
 
