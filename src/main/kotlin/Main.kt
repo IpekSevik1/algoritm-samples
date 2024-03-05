@@ -13,4 +13,8 @@ fun main(args: Array<String>) {
     //OddNumbers().getOddNumbersSample3()
     //OddNumbers().getOddNumbersSample4()
     //OddNumbers().getOddNumbersSample5()
+    //DivisorsOfNumber().getDivisorsOfNumber()
+    //OddNumbers().getOddNumbersSample6()
+    //EvenNumbers().getEvenNumberWithContinue()
+    //PerfectNumbers().getPerfectNumbersSimple()
 }

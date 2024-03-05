@@ -55,5 +55,18 @@ class OddNumbers {
         }
     }
 
+
+    // 1-30 arasindaki tek sayilarin continue kullanarak yazdirma
+
+    fun getOddNumbersSample6(){
+        var i = 0;
+        while (i++ < 30) {
+            if((i % 2) == 0){
+                continue
+            }
+            println(i)
+        }
+    }
+
 }
 
