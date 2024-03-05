@@ -1,6 +1,7 @@
 package basics
 
 class DivisorsOfNumber {
+    // Girilen sayinin bolenlerini bulma
     fun getDivisorsOfNumber() {
         println("Bir sayi giriniz?")
         var a : Int = readln().toInt()
