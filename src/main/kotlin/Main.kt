@@ -1,6 +1,7 @@
 import basics.DivisorsOfNumber
 import basics.EvenNumbers
 import basics.OddNumbers
+import basics.PerfectNumbers
 
 fun main(args: Array<String>) {
     println("Hello World!")

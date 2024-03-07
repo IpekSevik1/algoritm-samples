@@ -1,3 +1,4 @@
+package basics
 class PerfectNumbers {
     //Girilen sayinnin mukemmel sayi olup olmadigini ekrana yazdirma
     fun getPerfectNumbersSample() {
