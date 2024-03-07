@@ -16,5 +16,6 @@ fun main(args: Array<String>) {
     //DivisorsOfNumber().getDivisorsOfNumber()
     //OddNumbers().getOddNumbersSample6()
     //EvenNumbers().getEvenNumberWithContinue()
-    //PerfectNumbers().getPerfectNumbersSimple()
+    //PerfectNumbers().getPerfectNumbersSample()
+    //PerfectNumbers().getPerfectNumbersSample2()
 }
