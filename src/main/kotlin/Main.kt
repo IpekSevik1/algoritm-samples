@@ -1,7 +1,4 @@
-import basics.DivisorsOfNumber
-import basics.EvenNumbers
-import basics.OddNumbers
-import basics.PerfectNumbers
+import basics.*
 
 fun main(args: Array<String>) {
     println("Hello World!")
@@ -19,4 +16,5 @@ fun main(args: Array<String>) {
     //EvenNumbers().getEvenNumberWithContinue()
     //PerfectNumbers().getPerfectNumbersSample()
     //PerfectNumbers().getPerfectNumbersSample2()
+    //Palindrome().getPalindromeSample()
 }
