@@ -6,18 +6,18 @@ class Palindrome {
         println("Bir kelime giriniz?")
         val word: String = readLine().toString()
         // var word = {"i", "p", "e", "k"}
-        var isPolindrom: Boolean = true
+        var isPalindrom: Boolean = true
         for (i in 0 until word.length / 2) {
             if (word[word.length - 1 - i] != word[i]) {
-                isPolindrom = false
+                isPalindrom = false
                 break
             }
         }
-
-        if (isPolindrom) {
+        // if (isPalindrom == true)
+        if (isPalindrom) {
             println("Palindromdur.")
         } else {
-            println("Polindrom degildir")
+            println("Palindrom degildir")
         }
     }
 }
