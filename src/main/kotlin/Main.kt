@@ -17,4 +17,10 @@ fun main(args: Array<String>) {
     //PerfectNumbers().getPerfectNumbersSample()
     //PerfectNumbers().getPerfectNumbersSample2()
     //Palindrome().getPalindromeSample()
+    //FibonacciSeries().getFibonacciSeriesSample()
+    //FibonacciSeries().getFibonacciSeriesSample2()
+    //FibonacciSeries().getFibonacciSeriesSample3()
+    //FibonacciSeries().getFibonacciSeriesSample4()
+    //FibonacciSeries().getFibonacciSeriesSample5()
+
 }
