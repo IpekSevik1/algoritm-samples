@@ -1,0 +1,4 @@
+# My Algorithm Notes
+## Arrays
+
+- 
