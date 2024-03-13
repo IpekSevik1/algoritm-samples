@@ -31,15 +31,15 @@ class FibonacciSeries {
 
     // Recursıve fonksıyon kullanarak 4. fıbonaccı sayisini ekrana yazdırma
     fun getFibonacciSeriesSample3(n: Int): Int {
-            if (n <= 1)
-                return n;
+        if (n <= 1)
+            return n;
         return getFibonacciSeriesSample3(n - 1) + getFibonacciSeriesSample3(n - 2)
     }
 
     // Recursıve fonksıyon kullanarak n. terime kadar fıbonaccı sayisini ekrana yazdırma
-    fun getFibonacciSeriesWithRecursive(){
-        for (i in 0..4){
-            println( FibonacciSeries().getFibonacciSeriesSample3( n = i ))
+    fun getFibonacciSeriesWithRecursive() {
+        for (i in 0..4) {
+            println(FibonacciSeries().getFibonacciSeriesSample3(n = i))
         }
     }
 }
