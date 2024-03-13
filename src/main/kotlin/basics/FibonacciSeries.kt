@@ -26,8 +26,6 @@ class FibonacciSeries {
             }
             ilk = ikinci
             ikinci = son
-
-
         }
     }
 
