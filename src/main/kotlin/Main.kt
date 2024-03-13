@@ -19,8 +19,10 @@ fun main(args: Array<String>) {
     //Palindrome().getPalindromeSample()
     //FibonacciSeries().getFibonacciSeriesSample()
     //FibonacciSeries().getFibonacciSeriesSample2()
-    //FibonacciSeries().getFibonacciSeriesSample3()
-    //FibonacciSeries().getFibonacciSeriesSample4()
-    //FibonacciSeries().getFibonacciSeriesSample5()
+    //println( FibonacciSeries().getFibonacciSeriesSample3(4))
+    //FibonacciSeries().getFibonacciSeriesWithRecursive()
+
+
+
 
 }
