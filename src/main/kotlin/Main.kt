@@ -21,8 +21,8 @@ fun main(args: Array<String>) {
     //FibonacciSeries().getFibonacciSeriesSample2()
     //println( FibonacciSeries().getFibonacciSeriesSample3(4))
     //FibonacciSeries().getFibonacciSeriesWithRecursive()
-
-
-
+    //Factorial().getFactorialNumbersample()
+    //Factorial().getFactorialNumberSample1()
+    //Factorial().getFactorialWithRecursive()
 
 }
