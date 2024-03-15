@@ -24,5 +24,9 @@ fun main(args: Array<String>) {
     //Factorial().getFactorialNumbersample()
     //Factorial().getFactorialNumberSample1()
     //Factorial().getFactorialWithRecursive()
+    //PrimeNumber().getPrimeNumberSample()
+    //PrimeNumber().getPrimeNumberSample2()
+    //PrimeNumber().getPrimeNumberSample3()
+
 
 }
