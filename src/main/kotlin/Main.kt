@@ -27,6 +27,11 @@ fun main(args: Array<String>) {
     //PrimeNumber().getPrimeNumberSample()
     //PrimeNumber().getPrimeNumberSample2()
     //PrimeNumber().getPrimeNumberSample3()
+    //ArraySamples().getArraySample()
+    //ArraySamples().getArraySample2()
+    //ArraySamples().getArraySample3()
+    //ArraySamples().getArraySample4()
+    //ArraySamples().getArraySample5()
 
 
 }
